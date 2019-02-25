@@ -1,0 +1,14 @@
+Package: com.tigisoftware.filza
+Version: 3.6.2-9
+Architecture: iphoneos-arm
+Maintainer: SubstantialServices <bloodismyname1@gmail.com>
+Depends: <bundleids>
+Filename: /filza.deb
+Size: 12412490
+MD5sum: d674f70404556e249be1f925bd365fad
+SHA1: 2e8b7a61ce6b2b94781a76c142e2257634846672
+SHA256: f474e83f50b64630843c5fc928264f315112d7a6ac4304ac956bc49ffbde3470
+Section: Essentials
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+ (test in progress)
+Author: TIGI Software
+Name: Filza
