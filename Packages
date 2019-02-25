@@ -1,14 +1,28 @@
-Package: com.tigisoftware.filza
-Version: 3.6.2-9
+Package: com.supermamon.newpackage
+Version: 2.0.0-1
+Section: Tweaks
+Maintainer: Reposi3 <reposithree@gmail.com>
+Depends: firmware (>7.0), mobilesubstrate
 Architecture: iphoneos-arm
-Maintainer: SubstantialServices <bloodismyname1@gmail.com>
-Depends: <bundleids>
-Filename: /filza.deb
-Size: 12412490
-MD5sum: d674f70404556e249be1f925bd365fad
-SHA1: 2e8b7a61ce6b2b94781a76c142e2257634846672
-SHA256: f474e83f50b64630843c5fc928264f315112d7a6ac4304ac956bc49ffbde3470
-Section: Essentials
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+ (test in progress)
-Author: TIGI Software
-Name: Filza
+Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
+Size: 854
+MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
+Description: This is a sample new package. Firmware should be greater than 7.0
+Name: New Package
+Author: Reposi3 <reposithree@gmail.com>
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+
+Package: com.supermamon.oldpackage
+Version: 1.0.0-1
+Section: Tweaks
+Maintainer: Reposi3 <reposithree@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
+Size: 860
+MD5sum: 8c606f0c05217aa2a20949091fe516f0
+Description: This is a sample old package. Firmware should be lower than 7.0
+Name: Old Package
+Author: Reposi3 <reposithree@gmail.com>
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+
